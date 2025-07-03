@@ -20,6 +20,7 @@ function generadorExcusas(quien, accion, que, cuando) {
   let numAccion = Math.floor(Math.random() * accion.length);
   let numQue = Math.floor(Math.random() * que.length);
   let numCuando = Math.floor(Math.random() * cuando.length);
+  return quien[numQuien] + " " + accion[numAccion] + " " + que[numQue] + " " + cuando[numCuando];
 }
 
 function onLoad() {
